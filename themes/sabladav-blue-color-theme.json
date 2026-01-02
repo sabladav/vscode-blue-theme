@@ -1,0 +1,154 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Adlib Blue",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0B1E2B",
+    "editor.foreground": "#CFE8FF",
+    "editorLineNumber.foreground": "#6FA3C7",
+    "editorLineNumber.activeForeground": "#CFE8FF",
+    "editorCursor.foreground": "#00BFD8",
+    "editor.selectionBackground": "#00BFD820",
+    "editor.inactiveSelectionBackground": "#00BFD810",
+    "editorBracketMatch.background": "#00BFD820",
+    "editorBracketMatch.border": "#00BFD880",
+    "editorIndentGuide.background1": "#1A3446",
+    "editorIndentGuide.activeBackground1": "#28506B",
+    "editorWhitespace.foreground": "#1A3446",
+    "editorRuler.foreground": "#1A3446",
+    "editorGutter.background": "#0B1E2B",
+    "editorGutter.addedBackground": "#00C85350",
+    "editorGutter.deletedBackground": "#D5000050",
+    "editorGutter.modifiedBackground": "#1E88E550",
+    "activityBar.background": "#0F2433",
+    "activityBar.foreground": "#CFE8FF",
+    "activityBarBadge.background": "#00BFD8",
+    "activityBarBadge.foreground": "#00131F",
+    "sideBar.background": "#0D202E",
+    "sideBar.foreground": "#C6DEEE",
+    "sideBarTitle.foreground": "#9CC5E5",
+    "sideBarSectionHeader.background": "#0F2433",
+    "sideBarSectionHeader.foreground": "#CFE8FF",
+    "titleBar.activeBackground": "#0F2433",
+    "titleBar.activeForeground": "#CFE8FF",
+    "titleBar.inactiveBackground": "#0F2433",
+    "titleBar.inactiveForeground": "#88AFC9",
+    "statusBar.background": "#0F2433",
+    "statusBar.foreground": "#CFE8FF",
+    "statusBar.noFolderBackground": "#0F2433",
+    "statusBar.debuggingBackground": "#1E88E5",
+    "statusBar.debuggingForeground": "#00131F",
+    "tab.activeBackground": "#0B1E2B",
+    "tab.activeForeground": "#CFE8FF",
+    "tab.inactiveBackground": "#0F2433",
+    "tab.inactiveForeground": "#88AFC9",
+    "tab.hoverBackground": "#0D202E",
+    "tab.border": "#0F2433",
+    "breadcrumb.foreground": "#9CC5E5",
+    "breadcrumb.focusForeground": "#CFE8FF",
+    "button.background": "#00BFD8",
+    "button.foreground": "#00131F",
+    "button.hoverBackground": "#1E88E5",
+    "focusBorder": "#00BFD8",
+    "foreground": "#CFE8FF",
+    "selection.background": "#00BFD820",
+    "list.activeSelectionBackground": "#00BFD820",
+    "list.activeSelectionForeground": "#CFE8FF",
+    "list.hoverBackground": "#0D202E",
+    "list.focusBackground": "#0D202E",
+    "panel.background": "#0B1E2B",
+    "panel.border": "#1A3446",
+    "terminal.background": "#0B1E2B",
+    "terminal.foreground": "#CFE8FF",
+    "terminal.ansiBlack": "#0B1E2B",
+    "terminal.ansiBlue": "#1E88E5",
+    "terminal.ansiCyan": "#00BFD8",
+    "terminal.ansiGreen": "#00C853",
+    "terminal.ansiMagenta": "#B388FF",
+    "terminal.ansiRed": "#FF5370",
+    "terminal.ansiYellow": "#FFD54F",
+    "terminal.ansiWhite": "#CFE8FF",
+    "terminal.ansiBrightBlack": "#1A3446",
+    "terminal.ansiBrightBlue": "#64B5F6",
+    "terminal.ansiBrightCyan": "#4DD0E1",
+    "terminal.ansiBrightGreen": "#69F0AE",
+    "terminal.ansiBrightMagenta": "#E1BEE7",
+    "terminal.ansiBrightRed": "#FF8A80",
+    "terminal.ansiBrightYellow": "#FFF176",
+    "terminal.ansiBrightWhite": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "name": "Komentáře",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#6FA3C7",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Klíčová slova",
+      "scope": "keyword, storage.type, storage.modifier",
+      "settings": {
+        "foreground": "#7FB3FF"
+      }
+    },
+    {
+      "name": "Řetězce",
+      "scope": "string",
+      "settings": {
+        "foreground": "#5AD1FF"
+      }
+    },
+    {
+      "name": "Čísla",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#4FC3F7"
+      }
+    },
+    {
+      "name": "Funkce a metody",
+      "scope": "entity.name.function, support.function",
+      "settings": {
+        "foreground": "#9CDDFF"
+      }
+    },
+    {
+      "name": "Proměnné",
+      "scope": "variable, entity.name.tag",
+      "settings": {
+        "foreground": "#CFE8FF"
+      }
+    },
+    {
+      "name": "Typy",
+      "scope": "support.type, entity.name.type",
+      "settings": {
+        "foreground": "#89C2FF"
+      }
+    },
+    {
+      "name": "Operátory",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#64B5F6"
+      }
+    },
+    {
+      "name": "Deklarace/import",
+      "scope": "meta.import, meta.export, storage",
+      "settings": {
+        "foreground": "#7FB3FF"
+      }
+    },
+    {
+      "name": "Chyby",
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#FF5370",
+        "fontStyle": "underline"
+      }
+    }
+  ]
+}
