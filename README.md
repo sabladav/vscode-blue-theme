@@ -48,7 +48,6 @@ npm install -g vsce
      "description": "A beautiful dark blue color theme for VS Code",
      "publisher": "sabladav",
      "version": "0.0.1",
-     "engines": {
        "vscode": "^1.0.0"
      },
      "categories": ["Themes"],

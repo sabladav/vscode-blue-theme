@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Adlib Blue",
+  "name": "Sabladav Blue",
   "type": "dark",
   "colors": {
     "editor.background": "#0B1E2B",
@@ -79,7 +79,7 @@
   },
   "tokenColors": [
     {
-      "name": "Komentáře",
+      "name": "Comments",
       "scope": "comment",
       "settings": {
         "foreground": "#6FA3C7",
@@ -87,63 +87,63 @@
       }
     },
     {
-      "name": "Klíčová slova",
+      "name": "Keywords",
       "scope": "keyword, storage.type, storage.modifier",
       "settings": {
         "foreground": "#7FB3FF"
       }
     },
     {
-      "name": "Řetězce",
+      "name": "Strings",
       "scope": "string",
       "settings": {
         "foreground": "#5AD1FF"
       }
     },
     {
-      "name": "Čísla",
+      "name": "Numbers",
       "scope": "constant.numeric",
       "settings": {
         "foreground": "#4FC3F7"
       }
     },
     {
-      "name": "Funkce a metody",
+      "name": "Functions and Methods",
       "scope": "entity.name.function, support.function",
       "settings": {
         "foreground": "#9CDDFF"
       }
     },
     {
-      "name": "Proměnné",
+      "name": "Variables",
       "scope": "variable, entity.name.tag",
       "settings": {
         "foreground": "#CFE8FF"
       }
     },
     {
-      "name": "Typy",
+      "name": "Types",
       "scope": "support.type, entity.name.type",
       "settings": {
         "foreground": "#89C2FF"
       }
     },
     {
-      "name": "Operátory",
+      "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
         "foreground": "#64B5F6"
       }
     },
     {
-      "name": "Deklarace/import",
+      "name": "Declaration/Import",
       "scope": "meta.import, meta.export, storage",
       "settings": {
         "foreground": "#7FB3FF"
       }
     },
     {
-      "name": "Chyby",
+      "name": "Errors",
       "scope": "invalid",
       "settings": {
         "foreground": "#FF5370",
