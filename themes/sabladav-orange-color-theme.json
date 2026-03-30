@@ -1,0 +1,154 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Sabladav Orange",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#221810",
+    "editor.foreground": "#F0DCC8",
+    "editorLineNumber.foreground": "#B08860",
+    "editorLineNumber.activeForeground": "#F0DCC8",
+    "editorCursor.foreground": "#E8925C",
+    "editor.selectionBackground": "#E8925C28",
+    "editor.inactiveSelectionBackground": "#E8925C14",
+    "editorBracketMatch.background": "#E8925C25",
+    "editorBracketMatch.border": "#E8925C80",
+    "editorIndentGuide.background1": "#3A2A1A",
+    "editorIndentGuide.activeBackground1": "#584028",
+    "editorWhitespace.foreground": "#3A2A1A",
+    "editorRuler.foreground": "#3A2A1A",
+    "editorGutter.background": "#221810",
+    "editorGutter.addedBackground": "#6BBF5050",
+    "editorGutter.deletedBackground": "#D5000050",
+    "editorGutter.modifiedBackground": "#E89E5050",
+    "activityBar.background": "#2B1E12",
+    "activityBar.foreground": "#F0DCC8",
+    "activityBarBadge.background": "#E8925C",
+    "activityBarBadge.foreground": "#1A1008",
+    "sideBar.background": "#271A10",
+    "sideBar.foreground": "#DBBFA0",
+    "sideBarTitle.foreground": "#C8A480",
+    "sideBarSectionHeader.background": "#2B1E12",
+    "sideBarSectionHeader.foreground": "#F0DCC8",
+    "titleBar.activeBackground": "#2B1E12",
+    "titleBar.activeForeground": "#F0DCC8",
+    "titleBar.inactiveBackground": "#2B1E12",
+    "titleBar.inactiveForeground": "#A08868",
+    "statusBar.background": "#2B1E12",
+    "statusBar.foreground": "#F0DCC8",
+    "statusBar.noFolderBackground": "#2B1E12",
+    "statusBar.debuggingBackground": "#D47830",
+    "statusBar.debuggingForeground": "#1A1008",
+    "tab.activeBackground": "#221810",
+    "tab.activeForeground": "#F0DCC8",
+    "tab.inactiveBackground": "#2B1E12",
+    "tab.inactiveForeground": "#A08868",
+    "tab.hoverBackground": "#271A10",
+    "tab.border": "#2B1E12",
+    "breadcrumb.foreground": "#C8A480",
+    "breadcrumb.focusForeground": "#F0DCC8",
+    "button.background": "#E8925C",
+    "button.foreground": "#1A1008",
+    "button.hoverBackground": "#D47830",
+    "focusBorder": "#E8925C",
+    "foreground": "#F0DCC8",
+    "selection.background": "#E8925C28",
+    "list.activeSelectionBackground": "#E8925C28",
+    "list.activeSelectionForeground": "#F0DCC8",
+    "list.hoverBackground": "#271A10",
+    "list.focusBackground": "#271A10",
+    "panel.background": "#221810",
+    "panel.border": "#3A2A1A",
+    "terminal.background": "#221810",
+    "terminal.foreground": "#F0DCC8",
+    "terminal.ansiBlack": "#221810",
+    "terminal.ansiBlue": "#7AAED4",
+    "terminal.ansiCyan": "#6CBCB0",
+    "terminal.ansiGreen": "#6BBF50",
+    "terminal.ansiMagenta": "#C090D0",
+    "terminal.ansiRed": "#E06050",
+    "terminal.ansiYellow": "#E8C050",
+    "terminal.ansiWhite": "#F0DCC8",
+    "terminal.ansiBrightBlack": "#3A2A1A",
+    "terminal.ansiBrightBlue": "#A0C8E8",
+    "terminal.ansiBrightCyan": "#90D8CC",
+    "terminal.ansiBrightGreen": "#90E070",
+    "terminal.ansiBrightMagenta": "#D8B0E0",
+    "terminal.ansiBrightRed": "#F08878",
+    "terminal.ansiBrightYellow": "#F0D878",
+    "terminal.ansiBrightWhite": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#A08060",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": "keyword, storage.type, storage.modifier",
+      "settings": {
+        "foreground": "#FFB380"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#FFC896"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#F0A870"
+      }
+    },
+    {
+      "name": "Functions and Methods",
+      "scope": "entity.name.function, support.function",
+      "settings": {
+        "foreground": "#FFD4AA"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": "variable, entity.name.tag",
+      "settings": {
+        "foreground": "#F0DCC8"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": "support.type, entity.name.type",
+      "settings": {
+        "foreground": "#E8A060"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#D4A070"
+      }
+    },
+    {
+      "name": "Declaration/Import",
+      "scope": "meta.import, meta.export, storage",
+      "settings": {
+        "foreground": "#FFB380"
+      }
+    },
+    {
+      "name": "Errors",
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#E06050",
+        "fontStyle": "underline"
+      }
+    }
+  ]
+}

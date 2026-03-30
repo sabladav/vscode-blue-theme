@@ -1,10 +1,14 @@
-# Adlib Blue - VS Code Theme
+# Sabladav Dark Themes
 
-A beautiful dark blue color theme for Visual Studio Code inspired by Adlib Tracker II. The theme is designed to provide a pleasant color environment for long programming sessions.
+Dark color themes for Visual Studio Code — **Blue** (inspired by Adlib Tracker II) and **Orange** (warm pastel orange). Designed for pleasant long programming sessions.
+
+## Included Themes
+
+- 🔵 **Sabladav Blue** — Dark blue color scheme with cyan accents
+- 🟠 **Sabladav Orange** — Dark warm orange with pastel tones
 
 ## Features
 
-- 🎨 **Dark blue color scheme** - A combination of dark blues and light cyan colors
 - 👁️ **Eye-friendly** - Specially designed to reduce eye strain
 - 💻 **All languages supported** - Compatible with all programming languages
 - 🎯 **Clean design** - Minimalist and professional appearance
@@ -13,7 +17,7 @@ A beautiful dark blue color theme for Visual Studio Code inspired by Adlib Track
 
 ### Manual Installation
 1. Download the VSIX file
-2. In the terminal, run: `code --install-extension sabladav-blue-0.0.1.vsix`
+2. In the terminal, run: `code --install-extension sabladav-dark-themes-0.0.1.vsix`
 3. Restart VS Code
 
 ## Activating the Theme
@@ -21,7 +25,7 @@ A beautiful dark blue color theme for Visual Studio Code inspired by Adlib Track
 After installation, you can activate the theme:
 
 1. **Via command palette**: Press `Ctrl+Shift+P` and type "Preferences: Color Theme"
-2. Select **"Sabladav Blue"** from the list
+2. Select **"Sabladav Blue"** or **"Sabladav Orange"** from the list
 
 ## Creating a VSIX File
 
@@ -43,9 +47,9 @@ npm install -g vsce
 1. Verify that you have the correct information in `package.json`:
    ```json
    {
-     "name": "sabladav-blue",
-     "displayName": "Sabladav Blue",
-     "description": "A beautiful dark blue color theme for VS Code",
+     "name": "sabladav-dark-themes",
+     "displayName": "Sabladav Dark Themes",
+     "description": "Dark color themes for VS Code — Blue and Orange variants.",
      "publisher": "sabladav",
      "version": "0.0.1",
        "vscode": "^1.0.0"
@@ -54,9 +58,14 @@ npm install -g vsce
      "contributes": {
        "themes": [
          {
-           "label": "Adlib Blue",
+           "label": "Sabladav Blue",
            "uiTheme": "vs-dark",
            "path": "./themes/sabladav-blue-color-theme.json"
+         },
+         {
+           "label": "Sabladav Orange",
+           "uiTheme": "vs-dark",
+           "path": "./themes/sabladav-orange-color-theme.json"
          }
        ]
      }
@@ -67,12 +76,13 @@ npm install -g vsce
 
 2. Make sure you have all required files:
    ```
-   adlib-blue/
+   sabladav-dark-themes/
    ├── package.json
    ├── README.md (this file)
    ├── LICENSE (recommended)
    └── themes/
-       └── sabladav-blue-color-theme.json
+       ├── sabladav-blue-color-theme.json
+       └── sabladav-orange-color-theme.json
    ```
 
 ### Creating the VSIX
@@ -83,7 +93,7 @@ In the project directory, run:
 vsce package
 ```
 
-This command will create a file named `sabladav-blue-0.0.1.vsix` (version number varies based on your package).
+This command will create a file named `sabladav-dark-themes-0.0.1.vsix` (version number varies based on your package).
 
 ### Verifying the VSIX
 
@@ -92,7 +102,7 @@ This command will create a file named `sabladav-blue-0.0.1.vsix` (version number
 vsce ls
 
 # Installing the created VSIX
-code --install-extension sabladav-blue-0.0.1.vsix
+code --install-extension sabladav-dark-themes-0.0.1.vsix
 ```
 
 ## License

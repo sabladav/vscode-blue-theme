@@ -1,7 +1,7 @@
 {
-  "name": "sabladav-blue",
-  "displayName": "Sabladav Blue",
-  "description": "A beautiful dark blue color theme for VS Code inspired by Adlib Tracker II.",
+  "name": "sabladav-dark-themes",
+  "displayName": "Sabladav Dark Themes",
+  "description": "Dark color themes for VS Code — Blue and Orange variants.",
   "publisher": "Sabladav",
   "version": "0.0.1",
   "repository": {
@@ -18,6 +18,11 @@
         "label": "Sabladav Blue",
         "uiTheme": "vs-dark",
         "path": "./themes/sabladav-blue-color-theme.json"
+      },
+      {
+        "label": "Sabladav Orange",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sabladav-orange-color-theme.json"
       }
     ]
   }
